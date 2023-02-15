@@ -1,0 +1,9 @@
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/public-sans-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/public-sans-v14-latin-regular.woff2") format("woff2"), url("../fonts/public-sans-v14-latin-regular.woff") format("woff"), url("../fonts/public-sans-v14-latin-regular.ttf") format("truetype"), url("../fonts/public-sans-v14-latin-regular.svg#PublicSans") format("svg"); /* Legacy iOS */
+}/*# sourceMappingURL=normalize.css.map */

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/min.style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="meny">
+            <input class="meny__input" type="checkbox" id="meny__add" />
+            <img src="./images/icons/navbar-logo.svg" alt="payapi-logo" />
+
+            <div class="meny__bar">
+              <label class="meny__bar--icon" for="meny__add"
+                ><img src="./images/icons/x-icon.svg" alt="x-icon"
+              /></label>
+
+              <ul class="meny__list">
+                <li class="meny__list--item">
+                  <a class="meny__list--link" href="#!">Pricing</a>
+                </li>
+                <li class="meny__list--item">
+                  <a class="meny__list--link" href="#!">About</a>
+                </li>
+                <li class="meny__list--item">
+                  <a class="meny__list--link" href="#!">Contact</a>
+                </li>
+              </ul>
+
+              <button type="button" class="meny__bar--btn">
+                Schedule a Demo
+              </button>
+            </div>
+
+            <label for="meny__add" class="meny__add">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="hero__box">
+          <div class="hero__box-left__box">
+            <h1 class="left__box-title">
+              Start building with our APIs for absolutely free.
+            </h1>
+            <form
+              class="left__box-form"
+              action="https://echo.htmlacademy.ru/"
+              method="post"
+            >
+              <div class="form__box">
+                <input
+                  class="form__box-email"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                  required
+                />
+                <button class="form__box-btn" type="button">
+                  Schedule a Demo
+                </button>
+              </div>
+            </form>
+            <span class="left__box-info">Have any questions? Contact Us</span>
+          </div>
+
+          <div class="hero__box-right__box">
+            <img
+              class="right__box-img"
+              src="./images/phone-img.png"
+              alt="phone-img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__box">
+            <div class="about__box-left__box">
+              <h2 class="about__left-title">Who we work with</h2>
+              <p class="about__left-text">
+                Today, millions of people around the world have successfully
+                connected their accounts to apps they love using our API. We
+                provide developers with the tools they need to create easy and
+                accessible experiences for their users.
+              </p>
+              <a href="#!" class="about__left-link">About Us</a>
+            </div>
+
+            <div class="about__box-right__box">
+              <img src="./images/icons/tesla-logo.svg" alt="tesla-logo" />
+              <img src="./images/icons/micrsoft.svg" alt="micrsoft" />
+              <img
+                src="./images/icons/hewlet_packard.svg"
+                alt="hewlet_packard"
+              />
+              <img src="./images/icons/oracle.svg" alt="oracle" />
+              <img src="./images/icons/google.svg" alt="google" />
+              <img src="./images/icons/nvidia.svg" alt="nvidia" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="easy__box">
+            <img src="./images/form-img.png" alt="form-img" class="easy__img" />
+
+            <div class="easy__min-box">
+              <h2 class="min__box-title">Easy to implement</h2>
+
+              <p class="min__box-text">
+                Our API comes with just a few lines of code. You’ll be up and
+                running in no time. We built our documentation page to integrate
+                payments functionality with ease.
+              </p>
+            </div>
+          </div>
+
+          <div class="simple__box">
+            <div class="simple__min-box">
+              <h2 class="simple__box-title">Simple UI & UX</h2>
+
+              <p class="simple__box-text">
+                Our pre-built form is easy to integrate in your app or website’s
+                checkout flow and designed to optimize conversion.
+              </p>
+            </div>
+
+            <img
+              class="simple__img"
+              src="./images/phones-img.png"
+              alt="phone-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="ready__box">
+            <div class="wrapper__boxs">
+              <div class="wrapper__box">
+                <img
+                  class="wrapper__box-img"
+                  src="./images/icons/left-icon.svg"
+                  alt="left-icon"
+                />
+                <h3 class="wrapper__box-title">Personal Finances</h3>
+                <p class="wrapper__box-text">
+                  Consolidate financial data from multiple sources and
+                  categorize transactions up to 2 years of history. Analyze
+                  reports to reconcile activities in your account.
+                </p>
+              </div>
+              <div class="wrapper__box">
+                <img
+                  class="wrapper__box-img"
+                  src="./images/icons/center-icon.svg"
+                  alt="left-icon"
+                />
+                <h3 class="wrapper__box-title">Banking & Coverage</h3>
+                <p class="wrapper__box-text">
+                  With our platform, you can speed up account onboarding and
+                  support ongoing payments for checking, savings, credit card,
+                  and brokerage accounts.
+                </p>
+              </div>
+              <div class="wrapper__box">
+                <img
+                  class="wrapper__box-img"
+                  src="./images/icons/right-icon.svg"
+                  alt="left-icon"
+                />
+                <h3 class="wrapper__box-title">Consumer Payments</h3>
+                <p class="wrapper__box-text">
+                  It’s easier to set up secure bank payments with us through a
+                  flow designed with the user experience in mind. Customers
+                  could instantly authenticate their account.
+                </p>
+              </div>
+            </div>
+
+            <div class="ready__form-box">
+              <h2 class="ready__form-title">Ready to start?</h2>
+
+              <form
+                class="left__box-form"
+                action="https://echo.htmlacademy.ru/"
+                method="post"
+              >
+                <div class="form__box">
+                  <input
+                    class="form__box-email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email address"
+                    required
+                  />
+                  <button class="form__box-btn" type="button">
+                    Schedule a Demo
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__box">
+          <img src="./images/icons/footer-logo.svg" alt="footer-logo" />
+
+          <div class="footer_min-box">
+            <ul class="footer__meny">
+              <li><a class="footer__meny-link" href="#!">Pricing</a></li>
+              <li><a class="footer__meny-link" href="#!">About</a></li>
+              <li><a class="footer__meny-link" href="#!">Contact</a></li>
+            </ul>
+
+            <ul class="footer__logo">
+              <li>
+                <a href="#!"
+                  ><img
+                    class="footer-icon"
+                    src="./images/icons/facebook-icon.svg"
+                    alt="facebook-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><img
+                    class="footer-icon"
+                    src="./images/icons/twitter-icon.svg"
+                    alt="twitter-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><img
+                    class="footer-icon"
+                    src="./images/icons/linkidn-icon.svg"
+                    alt="linkidn-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

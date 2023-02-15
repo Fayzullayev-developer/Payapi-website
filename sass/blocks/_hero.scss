@@ -1,0 +1,112 @@
+.hero__box {
+    @include flexbox(flex, flex-start, center);
+    column-gap: 206px;
+    margin: 29px 0px 75px 0px;
+
+    @include for-tablet() {
+        flex-direction: column;
+        margin: 8px 0px 99px 0px;
+        row-gap: 48px;
+    }
+
+    @include for-mobile() {
+        margin: -13px 0px 79px 0px;
+        row-gap: 24px;
+    }
+}
+
+.left__box-title {
+    max-width: 546px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: $secondary-color-1;
+
+    @include for-tablet() {
+        max-width: 572px;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    @include for-mobile() {
+        max-width: 327px;
+        font-size: 32px;
+        line-height: 36px;
+        margin: 0 auto;
+    }
+}
+
+.form__box {
+    @include flexbox(flex, space-between, center);
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    max-width: 445px;
+    padding-left: 27px;
+    margin: 21px 0px 16px 0px;
+    width: 100%;
+
+    @include for-tablet() {
+        margin: 22px auto 16px auto;
+    }
+
+    @include for-mobile() {
+        flex-direction: column;
+        row-gap: 16px;
+        background: none;
+        box-shadow: none;
+
+        &-email {
+            background: #FBFCFE;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            border-radius: 24px;
+            padding: 16px 0px 14px 27px;
+            width: 327px;
+        }
+
+        &-btn {
+            width: 327px;
+        }
+    }
+
+    &-email {
+        border: none;
+        outline: none;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: $secondary-color-1;
+    }
+
+    &-email[placeholder] {
+        font-family: $text-font;
+        opacity: 0.5;
+    }
+}
+
+.left__box-info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: $secondary-color-2;
+    padding-left: 27px;
+
+    @include for-tablet() {
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+}
+
+.hero__box-right__box {
+    @include for-tablet() {
+        order: -1;
+    }
+}
+
+.right__box-img {
+    max-width: 263px;
+    max-height: 500px;
+    border-radius: 37px;
+}
